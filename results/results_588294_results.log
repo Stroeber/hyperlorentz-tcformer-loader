@@ -1,0 +1,23 @@
+
+Analyzing subject: all
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject all:
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.1_procTrue_encTrue_cutTrue_decTrue_predecFalse_loraTrue_sdTrue, TestAcc=0.7941 ± 0.019
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs32_lr0.0001_wd0.01_dp0_llr0.1_procTrue_encTrue_cutTrue_decTrue_predecFalse_loraTrue_sdTrue, TestAcc=0.7993 ± 0.012
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.1_procTrue_encTrue_cutTrue_decFalse_predecFalse_loraTrue_sdTrue, TestAcc=0.7886 ± 0.013
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs32_lr0.0001_wd0.01_dp0_llr0.01_procTrue_encTrue_cutTrue_decTrue_predecFalse_loraTrue_sdTrue, TestAcc=0.7909 ± 0.009
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.01_procTrue_encTrue_cutTrue_decTrue_predecFalse_loraTrue_sdTrue, TestAcc=0.7993 ± 0.014
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.1_procTrue_encTrue_cutTrue_decTrue_predecFalse_loraTrue_sdFalse, TestAcc=0.7950 ± 0.013
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.1_procTrue_encTrue_cutTrue_decFalse_predecFalse_loraTrue_sdFalse, TestAcc=0.7941 ± 0.014
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.01_procTrue_encTrue_cutTrue_decFalse_predecFalse_loraTrue_sdFalse, TestAcc=0.7932 ± 0.015
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.01_procTrue_encTrue_cutTrue_decTrue_predecFalse_loraTrue_sdFalse, TestAcc=0.7977 ± 0.020
+  Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.01_procTrue_encTrue_cutTrue_decFalse_predecFalse_loraTrue_sdTrue, TestAcc=0.8007 ± 0.011
+
+Summary for Subject all:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.8007, Std: 0.0111, Best Config: bcicha/BaselineDeviationModelIdEmbedHeadLora/subject_all/win4_bs64_lr0.0001_wd0.01_dp0_llr0.01_procTrue_encTrue_cutTrue_decFalse_predecFalse_loraTrue_sdTrue
+
+===== Overall Best Models Across Subjects =====
+Subject all: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.8007, Std = 0.0111
+
+Mean Best Accuracy Across Models: 0.8007
+Std Dev of Best Accuracy Across Models: 0.0000

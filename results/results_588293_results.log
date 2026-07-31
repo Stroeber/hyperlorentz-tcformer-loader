@@ -1,0 +1,269 @@
+
+Analyzing subject: 1
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 1:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9040 ± 0.019
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8820 ± 0.019
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8900 ± 0.021
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9060 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8940 ± 0.008
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8920 ± 0.029
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8800 ± 0.013
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9040 ± 0.019
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9060 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8980 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8900 ± 0.006
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8920 ± 0.022
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8860 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8900 ± 0.033
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8940 ± 0.024
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8940 ± 0.014
+
+Summary for Subject 1:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.9060, Std: 0.0120, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_1/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse
+
+Analyzing subject: 2
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 2:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9160 ± 0.010
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9180 ± 0.020
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9180 ± 0.018
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9400 ± 0.006
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9160 ± 0.008
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9200 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9120 ± 0.010
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9120 ± 0.010
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9200 ± 0.014
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9200 ± 0.031
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9180 ± 0.019
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9280 ± 0.019
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8980 ± 0.004
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9060 ± 0.026
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9160 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9180 ± 0.015
+
+Summary for Subject 2:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.9400, Std: 0.0063, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_2/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse
+
+Analyzing subject: 3
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 3:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7680 ± 0.040
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7500 ± 0.032
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7640 ± 0.020
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7960 ± 0.029
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7820 ± 0.026
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7660 ± 0.015
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7900 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7560 ± 0.037
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7500 ± 0.038
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7380 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7820 ± 0.031
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7680 ± 0.025
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7600 ± 0.036
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7520 ± 0.015
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7680 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7740 ± 0.033
+
+Summary for Subject 3:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.7960, Std: 0.0287, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_3/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse
+
+Analyzing subject: 4
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 4:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.4080 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.3600 ± 0.033
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.3920 ± 0.024
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.4160 ± 0.042
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.3820 ± 0.040
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.3560 ± 0.020
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.3920 ± 0.027
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.3740 ± 0.024
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.3460 ± 0.010
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.3620 ± 0.027
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.3600 ± 0.026
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.3560 ± 0.034
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.3700 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.3500 ± 0.032
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.4000 ± 0.035
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.3840 ± 0.029
+
+Summary for Subject 4:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.4160, Std: 0.0422, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_4/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse
+
+Analyzing subject: 5
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 5:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.4500 ± 0.009
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.4680 ± 0.048
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.4600 ± 0.033
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.4440 ± 0.005
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.4380 ± 0.039
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.4280 ± 0.045
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.4580 ± 0.028
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.4940 ± 0.040
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.4580 ± 0.029
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.4860 ± 0.037
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.4640 ± 0.022
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.4640 ± 0.031
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.4480 ± 0.020
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.4620 ± 0.031
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.4400 ± 0.022
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.4500 ± 0.024
+
+Summary for Subject 5:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.4940, Std: 0.0398, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_5/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse
+
+Analyzing subject: 6
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 6:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8760 ± 0.019
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7980 ± 0.038
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8380 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8320 ± 0.015
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8560 ± 0.032
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8400 ± 0.028
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8400 ± 0.022
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8260 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7880 ± 0.029
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8440 ± 0.027
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8360 ± 0.039
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8300 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8220 ± 0.047
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8280 ± 0.032
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8400 ± 0.024
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8380 ± 0.034
+
+Summary for Subject 6:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.8760, Std: 0.0185, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_6/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse
+
+Analyzing subject: 7
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 7:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7380 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7260 ± 0.032
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7300 ± 0.030
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7400 ± 0.011
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7200 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7340 ± 0.043
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7540 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7600 ± 0.009
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7400 ± 0.011
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7380 ± 0.026
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7300 ± 0.033
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7560 ± 0.014
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7560 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7340 ± 0.048
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7500 ± 0.028
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7480 ± 0.007
+
+Summary for Subject 7:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.7600, Std: 0.0089, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_7/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse
+
+Analyzing subject: 8
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 8:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.2780 ± 0.038
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.2640 ± 0.025
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.2840 ± 0.034
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.2780 ± 0.016
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.2560 ± 0.028
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.2840 ± 0.052
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.2620 ± 0.016
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.2580 ± 0.027
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.2500 ± 0.027
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.2880 ± 0.035
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.2640 ± 0.041
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.2420 ± 0.024
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.2500 ± 0.046
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.2440 ± 0.029
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.2720 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.2520 ± 0.019
+
+Summary for Subject 8:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.2880, Std: 0.0349, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_8/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse
+
+Analyzing subject: 9
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 9:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8840 ± 0.015
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9000 ± 0.021
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8960 ± 0.024
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8860 ± 0.027
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8760 ± 0.016
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8940 ± 0.019
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.8920 ± 0.018
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9000 ± 0.014
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8980 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9060 ± 0.016
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9180 ± 0.030
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8860 ± 0.014
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8960 ± 0.014
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.8880 ± 0.038
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.8940 ± 0.015
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.8980 ± 0.015
+
+Summary for Subject 9:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.9180, Std: 0.0299, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_9/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue
+
+Analyzing subject: 10
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 10:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7680 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7740 ± 0.023
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7500 ± 0.042
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7760 ± 0.014
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7500 ± 0.020
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7840 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7680 ± 0.027
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7660 ± 0.021
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7580 ± 0.015
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7420 ± 0.007
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.7840 ± 0.024
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7660 ± 0.010
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7620 ± 0.016
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.7800 ± 0.013
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.7500 ± 0.015
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.7820 ± 0.015
+
+Summary for Subject 10:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.7840, Std: 0.0174, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_10/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue
+
+Analyzing subject: 11
+
+Configs for model BaselineDeviationModelIdEmbedHeadLora, subject 11:
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9480 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9240 ± 0.014
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9380 ± 0.013
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9460 ± 0.005
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9440 ± 0.005
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9440 ± 0.005
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9380 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9360 ± 0.010
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9340 ± 0.008
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9480 ± 0.007
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdTrue, TestAcc=0.9340 ± 0.012
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9400 ± 0.015
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9340 ± 0.008
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.0001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decFalse_predecFalse_loraFalse_sdFalse, TestAcc=0.9140 ± 0.005
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.001_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse, TestAcc=0.9480 ± 0.017
+  Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.0001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdTrue, TestAcc=0.9320 ± 0.007
+
+Summary for Subject 11:
+Model: BaselineDeviationModelIdEmbedHeadLora, Best Accuracy: 0.9480, Std: 0.0117, Best Config: mamem/BaselineDeviationModelIdEmbedHeadLora/subject_11/win1_bs32_lr0.001_wd0.01_dp0_llr1e-05_procFalse_encFalse_cutTrue_decTrue_predecFalse_loraFalse_sdFalse
+
+===== Overall Best Models Across Subjects =====
+Subject 1: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.9060, Std = 0.0120
+Subject 2: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.9400, Std = 0.0063
+Subject 3: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.7960, Std = 0.0287
+Subject 4: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.4160, Std = 0.0422
+Subject 5: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.4940, Std = 0.0398
+Subject 6: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.8760, Std = 0.0185
+Subject 7: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.7600, Std = 0.0089
+Subject 8: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.2880, Std = 0.0349
+Subject 9: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.9180, Std = 0.0299
+Subject 10: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.7840, Std = 0.0174
+Subject 11: Best Model = BaselineDeviationModelIdEmbedHeadLora, Accuracy = 0.9480, Std = 0.0117
+
+Mean Best Accuracy Across Models: 0.7387
+Std Dev of Best Accuracy Across Models: 0.2208

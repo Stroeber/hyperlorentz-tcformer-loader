@@ -1,0 +1,17 @@
+/data/
+/__pycache__/
+utils/__pycache__
+models/__pycache__
+/scripts
+/runs
+/lib
+*.pt
+/testing.py
+*.pyc
+/.idea
+*.iml
+*.xml
+*.pyc
+/.vscode
+*.pyc
+/pretrained_weights/pretrained_weights.pth
