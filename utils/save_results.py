@@ -26,7 +26,7 @@ def save_output(model_name, dataset, sub, bs, lr, wd, sd, alpha, epochs, results
     elif model_name == "vit":
         hp_config += f"_depth{kwargs['depth']}_mlpdim{kwargs['mlp_dim']}_dropout{kwargs['dropout']}"
 
-    model_folder = os.path.join(base_folder, dataset, model_name, subject, hp_config)####################
+    model_folder = os.path.join(base_folder, dataset, model_name, hp_config, subject)####################
     os.makedirs(model_folder, exist_ok=True)
 
     # run_id = 1

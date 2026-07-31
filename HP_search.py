@@ -138,7 +138,7 @@ def extract_metrics_from_csv(hp, sub_list, run_id, del_results = False):
     
     subject_str = f"subject_{sub_list_str}"
     
-    results_path = os.path.join(BASE_FOLDER, DATASET, MODEL_NAME, subject_str, hp_config)##############################
+    results_path = os.path.join(BASE_FOLDER, DATASET, MODEL_NAME, hp_config, subject_str)##############################
     target_csv = os.path.join(results_path, f"run_{run_id}.csv")
     
     if not os.path.exists(results_path):
