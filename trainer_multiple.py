@@ -30,7 +30,7 @@ from hyperbolic_lib.lib.geoopt.optim import RiemannianSGD, RiemannianAdam, Riema
 
 def trainNetworkMultiple(net, trainloader, validloader, testloader, model_path=None, model=None, dataset=None, bs=64,
                  iterations=500, lr=5 * 1e-4, wd=None, repeat=None, sub=None, epochs=None, subject_weights=None,
-                 verbose=False, save_model=False, save_results=True, early_stopping=True, grace_period=150,
+                 verbose=False, save_model=True, save_results=True, early_stopping=True, grace_period=150,
                  hyperbolic=False, clip_grad=0, loss_1=None, loss_2=None, num_classes=0, scheduler=False, **kwargs):
     best_test = 0
     best_val = 0
@@ -46,7 +46,6 @@ def trainNetworkMultiple(net, trainloader, validloader, testloader, model_path=N
     alpha = [1.0] * num_classes
     # CE = FocalLoss(gamma=2., alpha=alpha, task_type='multi-class', num_classes=num_classes)
     cfg = CutFillConfig(min_frac=0.05, max_frac=0.15, fill_value=0.0, loss_on_full=False)
-
     if not hyperbolic:
         optimizer = torch.optim.Adam(
             filter(lambda p: p.requires_grad, net.parameters()),
@@ -212,11 +211,11 @@ def trainNetworkMultiple(net, trainloader, validloader, testloader, model_path=N
             bestLoss = (TL / len(validloader)).item()
             update_best_test = 1
 
-            if save_results:
+            if save_model:
                 hp_config = (f"bs{bs}_lr{lr}_dist{kwargs['dist']}_wd{wd}_fl{kwargs['filter_len']}_dec{kwargs['learn_decoder']}_"
                             f"sd{sd_log}_win{kwargs['windows']}_dp{kwargs['dropout']}_llr{kwargs['lora_lr']}_proc{kwargs['pre_processor']}_"
                             f"enc{kwargs['pre_encoder']}_cut{kwargs['cutfill']}_predec{kwargs['learn_predecoder']}_lora{kwargs['learn_lora']}")    
-                model_folder = os.path.join('checkpoints', dataset, model, f"sub_{kwargs['sub_str']}")
+                model_folder = os.path.join('checkpoints', dataset, model, f"sub_{sub}")
                 os.makedirs(model_folder, exist_ok=True)
                 torch.save(net, os.path.join(model_folder, f"{hp_config}_{kwargs['run_id']}.pt"))
             # else:

@@ -13,7 +13,7 @@ from pathlib import Path
 # ==========================================
 BASE_FOLDER = "./results"
 DATASET = "mamem"
-MODEL_NAME = "inception"
+MODEL_NAME = "BaselineDeviationModelIdEmbedHeadLora"
 MAX_GRACE_COUNT = 3
 match DATASET:
     case 'mamem':
@@ -38,10 +38,10 @@ HP_GRID = {
     'BaselineDeviationModelIdEmbedHeadLora':{
         'bs': [64, 128],
         'lr': [1e-2, 1e-3, 1e-4],
-        'dist': ['AE', 'COV', 'KL'],
+        'dist': ['AE', 'COV'],# 'KL'],
         'wd': [1e-2, 1e-3],
         'learn_decoder': [0, 1],
-        'scheduler': [0, 1],
+        'scheduler': [1],# 0],
         # 'run_id': RUN_IDENTIFIERS
     }
 }
@@ -66,6 +66,7 @@ def add_default_params(hp):
             hp['cutfill'] = True
             hp['learn_predecoder'] = False
             hp['learn_lora'] = True
+            hp['debug'] = False
         if DATASET == 'bci':
             pass #Don't have params, also need to train recon model first
             # hp['filter_len'] = 0
@@ -77,6 +78,7 @@ def add_default_params(hp):
             # hp['cutfill'] =
             # hp['learn_predecoder'] =
             # hp['learn_lora'] =
+            # hp['debug'] = False
         if DATASET == 'bcicha':
             hp['filter_len'] = 0
             hp['windows'] = 1
@@ -87,6 +89,7 @@ def add_default_params(hp):
             hp['cutfill'] = True
             hp['learn_predecoder'] = False
             hp['learn_lora'] = True
+            hp['debug'] = False
     elif MODEL_NAME == 'inception':
         hp['learn_decoder'] = False
         hp['scheduler'] = True
@@ -98,6 +101,7 @@ def add_default_params(hp):
         hp['cutfill'] = False
         hp['learn_predecoder'] = False
         hp['learn_lora'] = False
+        hp['debug'] = False
     return hp
     
 

@@ -6,7 +6,7 @@ import csv
 def save_output(model_name, dataset, sub, bs, lr, wd, sd, alpha, epochs, results, **kwargs):
 
     base_folder = './results'
-    subject = f"subject_{kwargs['sub_str']}"
+    subject = f"subject_{kwargs['sub_str']}" if sub != 'all' else f"subject_{sub}"
 
     dropout = kwargs['dropout']
     windows = kwargs['windows']
