@@ -12,7 +12,7 @@ from pathlib import Path
 # 1. Flexible Configuration Grid
 # ==========================================
 BASE_FOLDER = "./results"
-DATASET = "bci"
+DATASET = "mamem"
 MODEL_NAME = "inception"
 MAX_GRACE_COUNT = 3
 match DATASET:
