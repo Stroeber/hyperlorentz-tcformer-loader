@@ -63,7 +63,9 @@ def main():
                     "Dataset": dataset,
                     "Single Accuracy": "N/A",
                     "Pooled Accuracy": "N/A",
-                    "Delta (Pooled - Single)": "N/A"
+                    "All Accuracy": "N/A",
+                    "Delta (Pool vs Single)": "N/A",
+                    "Delta (Pool vs All)": "N/A"
                 })
                 continue
                 
@@ -86,14 +88,19 @@ def main():
             single_std_col  = f"{REPORT_METRIC}_std_single"
             pooled_mean_col = f"{REPORT_METRIC}_mean_pooled"
             pooled_std_col  = f"{REPORT_METRIC}_std_pooled"
+            all_mean_col    = f"{REPORT_METRIC}_mean_all"
+            all_std_col     = f"{REPORT_METRIC}_std_all"
             
             required_cols = [single_mean_col, single_std_col, pooled_mean_col, pooled_std_col]
-            if not all(col in best_df.columns for col in required_cols):
-                print(f"  [Error] Missing required metric columns in {dataset}. Skipping.")
-                continue
+            missing_cols = [c for c in required_cols if c not in best_df.columns]
+            if missing_cols:
+                print(f"  [Warning] Missing columns {missing_cols} in {dataset}. Filling with NaN.")
+                for c in missing_cols:
+                    best_df[c] = np.nan
 
-            # Calculate Delta for each subject
-            best_df['accuracy_delta'] = best_df[pooled_mean_col] - best_df[single_mean_col]
+            # Calculate Deltas
+            best_df['delta_pool_single'] = best_df[pooled_mean_col] - best_df[single_mean_col]
+            best_df['delta_pool_all'] = best_df[pooled_mean_col] - best_df[all_mean_col]
             
             # ----------------------------------------------------
             # Generate Subject-Level Table
@@ -103,8 +110,10 @@ def main():
                 subject_records.append({
                     "Subject": row['subject'],
                     "Single Accuracy": format_cell(row[single_mean_col], row[single_std_col]),
+                    "All Accuracy": format_cell(row[all_mean_col], row[all_std_col]),
                     "Pooled Accuracy": format_cell(row[pooled_mean_col], row[pooled_std_col]),
-                    "Delta": format_delta(row['accuracy_delta'])
+                    "Delta (Pool vs Single)": format_delta(row['delta_pool_single']),
+                    "Delta (Pool vs All)": format_delta(row['delta_pool_all'])
                 })
                 
             subject_df = pd.DataFrame(subject_records)
@@ -117,19 +126,14 @@ def main():
             # ----------------------------------------------------
             # Standard practice in BCI is to report the mean of the subject means, 
             # and the standard deviation across subjects (cross-subject variability).
-            ds_single_mean = best_df[single_mean_col].mean()
-            ds_single_std  = best_df[single_mean_col].std() 
-            
-            ds_pooled_mean = best_df[pooled_mean_col].mean()
-            ds_pooled_std  = best_df[pooled_mean_col].std()
-            
-            ds_delta_mean  = best_df['accuracy_delta'].mean()
             
             dataset_level_records.append({
                 "Dataset": dataset,
-                "Single Accuracy": format_cell(ds_single_mean, ds_single_std),
-                "Pooled Accuracy": format_cell(ds_pooled_mean, ds_pooled_std),
-                "Delta (Pooled - Single)": format_delta(ds_delta_mean)
+                "Single Accuracy": format_cell(best_df[single_mean_col].mean(), best_df[single_mean_col].std()),
+                "All Accuracy": format_cell(best_df[all_mean_col].mean(), best_df[all_mean_col].std()),
+                "Pooled Accuracy": format_cell(best_df[pooled_mean_col].mean(), best_df[pooled_mean_col].std()),
+                "Delta (Pool vs Single)": format_delta(best_df['delta_pool_single'].mean()),
+                "Delta (Pool vs All)": format_delta(best_df['delta_pool_all'].mean())
             })
             
         # ----------------------------------------------------

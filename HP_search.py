@@ -12,8 +12,8 @@ from pathlib import Path
 # 1. Flexible Configuration Grid
 # ==========================================
 BASE_FOLDER = "./results"
-DATASET = "mamem"
-MODEL_NAME = "BaselineDeviationModelIdEmbedHeadLora"
+DATASET = "bci"
+MODEL_NAME = "inception"
 MAX_GRACE_COUNT = 3
 match DATASET:
     case 'mamem':
@@ -287,6 +287,11 @@ def main():
         print(f"==================================================")
 
         hp = add_default_params(base_hp)
+
+        if DATASET == 'bcicha':
+            all_subjects_pool = BCICHA_SUB_ID
+        else:
+            all_subjects_pool = [i + 1 for i in range(NUM_SUBJECTS)]
         
         for sub_idx in range(NUM_SUBJECTS):
             if DATASET == 'bcicha':
@@ -301,7 +306,8 @@ def main():
             # Define both single-subject (baseline) and pooled configurations
             pools_to_evaluate = {
                 'single': [sub],
-                'pooled': locked_pool
+                'pooled': locked_pool,
+                'all': all_subjects_pool
             }
             
             # 2. Execute training for both Single and Pooled setups across all run seeds
