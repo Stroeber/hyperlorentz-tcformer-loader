@@ -13,7 +13,7 @@ from pathlib import Path
 # ==========================================
 BASE_FOLDER = "./results"
 DATASET = "mamem"
-MODEL_NAME = "inception"
+MODEL_NAME = "BaselineDeviationModelIdEmbedHeadLora"
 MAX_GRACE_COUNT = 3
 match DATASET:
     case 'mamem':
@@ -40,8 +40,8 @@ HP_GRID = {
         'lr': [1e-2, 1e-3, 1e-4],
         'dist': ['AE', 'COV'],# 'KL'],
         'wd': [1e-2, 1e-3],
-        'learn_decoder': [0, 1],
-        'scheduler': [1],# 0],
+        'learn_decoder': [True, False],
+        'scheduler': [True],# 0],
         # 'run_id': RUN_IDENTIFIERS
     }
 }
@@ -59,11 +59,11 @@ def add_default_params(hp):
         if DATASET == 'mamem':
             hp['filter_len'] = 0
             hp['windows'] = 1
-            hp['dropout'] = 0
+            hp['dropout'] = 0.0
             hp['lora_lr'] = 1e-5
-            hp['pre_processor'] = True
-            hp['pre_encoder'] = True
-            hp['cutfill'] = True
+            hp['pre_processor'] = False
+            hp['pre_encoder'] = False
+            hp['cutfill'] = False
             hp['learn_predecoder'] = False
             hp['learn_lora'] = True
             hp['debug'] = False
@@ -82,11 +82,11 @@ def add_default_params(hp):
         if DATASET == 'bcicha':
             hp['filter_len'] = 0
             hp['windows'] = 1
-            hp['dropout'] = 0
+            hp['dropout'] = 0.0
             hp['lora_lr'] = 1e-1
-            hp['pre_processor'] = True
-            hp['pre_encoder'] = True
-            hp['cutfill'] = True
+            hp['pre_processor'] = False
+            hp['pre_encoder'] = False
+            hp['cutfill'] = False
             hp['learn_predecoder'] = False
             hp['learn_lora'] = True
             hp['debug'] = False
@@ -232,7 +232,7 @@ def get_or_create_subject_pool(hp, sub, base_run_id):
     grace_count = 0
     
     for neighbor_idx in sorted_neighbor_indices:
-        if DATASET == 'bchicha':
+        if DATASET == 'bcicha':
             neighbor_sub = BCICHA_SUB_ID[neighbor_idx]
         else:
             neighbor_sub = neighbor_idx + 1
@@ -309,7 +309,9 @@ def main():
                 'pooled': locked_pool,
                 'all': all_subjects_pool
             }
-            
+            ###############################################
+            ################################################
+            #Training on "all" should have every subject as primary once, now its just for the first subjesqueuect in the Dataset
             # 2. Execute training for both Single and Pooled setups across all run seeds
             for pool_type, current_pool in pools_to_evaluate.items():
                 print(f"\n --- Subject {sub} | Mode: {pool_type.upper()} | Pool: {current_pool} ---")

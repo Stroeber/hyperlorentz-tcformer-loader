@@ -1,4 +1,4 @@
-Dataset,Single Accuracy,Pooled Accuracy,Delta (Pooled - Single)
-mamem,45.58 ± 20.25,58.60 ± 22.55,+13.02
-bci,N/A,N/A,N/A
-bcicha,N/A,N/A,N/A
+Dataset,Single Accuracy,All Accuracy,Pooled Accuracy,Delta (Pool vs Single),Delta (Pool vs All)
+mamem,59.07 ± 26.74,76.47 ± 1.14,62.78 ± 24.49,+3.71,-13.69
+bci,N/A,N/A,N/A,N/A,N/A
+bcicha,N/A,N/A,N/A,N/A,N/A

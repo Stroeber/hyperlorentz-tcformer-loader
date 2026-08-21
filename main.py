@@ -54,8 +54,8 @@ if __name__ == '__main__':
     ap.add_argument('--finetune', type=str2bool, default=True)#######################WHEN FINETUNE???
     ap.add_argument('--debug', type=str2bool, default=False)
 
-    ap.add_argument('--pre_processor', type=str2bool, default=True, help='')
-    ap.add_argument('--pre_encoder', type=str2bool, default=True, help='')
+    ap.add_argument('--pre_processor', type=str2bool, default=False, help='')
+    ap.add_argument('--pre_encoder', type=str2bool, default=False, help='')
     ap.add_argument('--cutfill', type=str2bool, default=True)
     ap.add_argument('--learn_predecoder', type=str2bool, default=False)
     ap.add_argument('--learn_decoder', type=str2bool, default=False)
@@ -133,40 +133,40 @@ if __name__ == '__main__':
         net = net.to(args['device'])
     else:
 
-        if resolve_k:
-            checkpoint_path = get_model_checkpoint_name(**args)
-            checkpoint = torch.load(checkpoint_path, map_location="cpu")
-            manifold = CustomLorentz(k=checkpoint["manifold.k"].detach().clone())
+        # if resolve_k:
+        #     checkpoint_path = get_model_checkpoint_name(**args)
+        #     checkpoint = torch.load(checkpoint_path, map_location="cpu")
+        #     manifold = CustomLorentz(k=checkpoint["manifold.k"].detach().clone())
 
         # if args["sub"] != 'all' and not args["finetune"]:
         #     net = get_model_single_subject(num_pred_classes, **args)
         # else:
         net, checkpoint_path = get_model_cross_subject(num_pred_classes, manifold, **args)
 
-        if args['finetune'] and args['sub'] != 'all':
-            analyser = FindBestConfig(args['dataset'], subject="all")
-            best_config, _ = analyser.get_best_config(args['model'], f'win{args["windows"]}')
-            dataset = args['dataset']
-            model = args['model']
+        # if args['finetune'] and args['sub'] != 'all':
+        #     analyser = FindBestConfig(args['dataset'], subject="all")
+        #     best_config, _ = analyser.get_best_config(args['model'], f'win{args["windows"]}')
+        #     dataset = args['dataset']
+        #     model = args['model']
 
-            checkpoint_path = f'./checkpoints/{dataset}_{model}_{best_config}_all.pt'
-            print('Loading Checkpoint from: ', checkpoint_path)
-            net = torch.load(checkpoint_path, map_location="cpu", weights_only=False)
-            net = net.to(args['device'])
+        #     checkpoint_path = f'./checkpoints/{dataset}_{model}_{best_config}_all.pt'
+        #     print('Loading Checkpoint from: ', checkpoint_path)
+        #     net = torch.load(checkpoint_path, map_location="cpu", weights_only=False)
+        #     net = net.to(args['device'])
 
-            args["pre_processor"] = False
-            args["pre_encoder"] = False
+        #     args["pre_processor"] = False
+        #     args["pre_encoder"] = False
 
-        if args["pre_processor"]:
-            load_block_from_checkpoint(net, checkpoint,'processor.')
-        if args["pre_encoder"]:
-            match args["type"]:
-                case "half":
-                    load_half_block_from_checkpoint(net, checkpoint, 'encoder.')
-                case "full":
-                    load_full_block_from_checkpoint(net, checkpoint,'encoder.')
-                case "default":
-                    load_block_from_checkpoint(net, checkpoint,'encoder.')
+        # if args["pre_processor"]:
+        #     load_block_from_checkpoint(net, checkpoint,'processor.')
+        # if args["pre_encoder"]:
+        #     match args["type"]:
+        #         case "half":
+        #             load_half_block_from_checkpoint(net, checkpoint, 'encoder.')
+        #         case "full":
+        #             load_full_block_from_checkpoint(net, checkpoint,'encoder.')
+        #         case "default":
+        #             load_block_from_checkpoint(net, checkpoint,'encoder.')
 
         for row in trainloader:
 

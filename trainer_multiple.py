@@ -30,7 +30,7 @@ from hyperbolic_lib.lib.geoopt.optim import RiemannianSGD, RiemannianAdam, Riema
 
 def trainNetworkMultiple(net, trainloader, validloader, testloader, model_path=None, model=None, dataset=None, bs=64,
                  iterations=500, lr=5 * 1e-4, wd=None, repeat=None, sub=None, epochs=None, subject_weights=None,
-                 verbose=False, save_model=True, save_results=True, early_stopping=True, grace_period=150,
+                 verbose=False, save_model=False, save_results=True, early_stopping=True, grace_period=150,
                  hyperbolic=False, clip_grad=0, loss_1=None, loss_2=None, num_classes=0, scheduler=False, **kwargs):
     best_test = 0
     best_val = 0

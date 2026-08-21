@@ -1,4 +1,4 @@
-Dataset,Single Accuracy,Pooled Accuracy,Delta (Pooled - Single)
-mamem,N/A,N/A,N/A
-bci,N/A,N/A,N/A
-bcicha,N/A,N/A,N/A
+Dataset,Single Accuracy,Pooled Accuracy,All Accuracy,Delta (Pool vs Single),Delta (Pool vs All)
+mamem,N/A,N/A,N/A,N/A,N/A
+bci,N/A,N/A,N/A,N/A,N/A
+bcicha,N/A,N/A,N/A,N/A,N/A
